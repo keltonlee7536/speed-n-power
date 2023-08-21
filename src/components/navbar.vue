@@ -1,7 +1,11 @@
 <template>
   <div class="navbarMain">
-
-      <button class="navButton">home</button>
+      <router-link to="/">Home</router-link>
+      <router-link to="/gallery">Gallery</router-link>
+      <router-link to="/contact">Contact</router-link>
+      <!-- <button class="navButton">home</button>
+      <button class="navButton">gallery</button>
+      <button class="navButton">contact</button> -->
 
   </div>
 </template>

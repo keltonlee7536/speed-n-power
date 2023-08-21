@@ -1,15 +1,23 @@
 <template>
-  <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
-    <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
-    </div>
-  </div>
+
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="placeholder">
+
+    <label for="name">Year:</label><br>
+    <input type="text" id="year" name="placeholder">
+
+    <!-- <label for="name">Make:</label><br>
+    <input type="text" id="make" name="placeholder">
+
+    <label for="name">Model:</label><br>
+    <input type="text" id="model" name="placeholder">
+
+  <input type="radio"> -->
+
+
+  <label for="name">aditional Info:</label><br>
+    <input type="text" id="additionalInfo" name="placeholder">
+
 </template>
 
 <style scoped>
