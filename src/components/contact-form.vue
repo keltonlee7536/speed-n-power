@@ -13,7 +13,8 @@
     <input type="text" id="model" name="placeholder">
 
   <input type="radio"> -->
-
+  
+  <!--condition: new, fair, poor, needs tune up, not running-->
 
   <label for="name">aditional Info:</label><br>
     <input type="text" id="additionalInfo" name="placeholder">

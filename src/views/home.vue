@@ -3,8 +3,7 @@
 </script>
 
 <template>
-  <navbar />
-    <h1>home page</h1>
+    <navbar />
 </template>
 
 <style>
