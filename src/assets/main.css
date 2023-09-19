@@ -1,4 +1,98 @@
-test {
-  color: red;
-  background-color: red;
+/* Link Styles ///////////////////////////////////// */
+a:link {/* unvisited */
+  text-decoration: none;
+  /* color: white; */
+}
+
+a:visited {/* visited */
+  text-decoration: none;
+  /* color: white; */
+}
+
+a:hover {/* mouse over link */
+  border-bottom: 3px;
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:active {/* selected link */
+  text-decoration: none;
+  color: darkblue;
+}
+
+
+#navbar-hover a:hover {
+  border-bottom: 3px;
+}
+
+
+/* Main Styles /////////////////////////////////////////*/
+.test {
+  color: red !important;
+  background-color: red !important;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  width:  100%;
+  object-fit: cover;
+  position: relative; /*Lets the logo fold up into it when the logo is "position: absolute" */
+}
+
+.logo-box {
+ border-radius: 30%;
+ background-color:  red;
+ width: 100px;
+ height: 100px;
+}
+
+.logo-box-img {
+  max-width: 100px;
+  aspect-ratio: 1;
+}
+
+/* Main title-desc styles /////////////////////////////// */
+
+.logo-title-main {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 300px;
+  padding-left: 150px;
+}
+
+.main-description {
+  font-size: 15px;
+}
+
+/* Navbar Styles //////////////////////////////////////*/
+
+.navbar-main-structure {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  width :100%;
+  /* the sticky part */
+  position: sticky;
+  top: 0;
+}
+
+.nav-button-skin :hover {
+  color: green;
+}
+
+.nav-button-skin {
+  /* background-color:   transparent; */
+  background-color: rgba(255,255,255,0.5);
+  color:  black;
+  font-size: 30px;
+  font-weight:  bold;
 }

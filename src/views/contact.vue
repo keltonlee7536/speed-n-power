@@ -1,20 +1,12 @@
 <script setup>
   import contactForm from "../components/contact-form.vue"
+  import navbar from "../components/navbar.vue"
 </script>
 
 <template>
+  <navbar />
   <div class="about">
-    <h1>THE CONTACT PAGE</h1>
     <contactForm />
   </div>
+  <h1>Contact content</h1>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

@@ -1,25 +1,16 @@
 <template>
-  <div class="navbarMain">
-      <router-link to="/">Home</router-link>
-      <router-link to="/gallery">Gallery</router-link>
-      <router-link to="/contact">Contact</router-link>
-      <!-- <button class="navButton">home</button>
-      <button class="navButton">gallery</button>
-      <button class="navButton">contact</button> -->
+  <head>
+    <link rel="stylesheet" type="text/css" href="../assets/main.css">
+  </head>
 
-  </div>
+  <body>
+      
+    <div class="navbar-main-structure">
+        <router-link to="/" class="nav-button-skin">Home</router-link>
+        <router-link to="/gallery" class="nav-button-skin">Gallery</router-link>
+        <router-link to="/contact" class="nav-button-skin">Contact</router-link>
+    </div>
+
+  </body>
+
 </template>
-
-<style scoped>
-
-.navbarMain {
-  display: flex;
-  justify-content: center;
-  align-items: space-between;
-}
-
-.navButton {
-  color: grey;
-}
-
-</style>

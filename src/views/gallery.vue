@@ -1,9 +1,11 @@
 <script setup>
 // import TheWelcome from '../components/TheWelcome.vue'
+import navbar from '../components/navbar.vue'
+import carousel from '../components/carousel.vue'
 </script>
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-  </main>
+  <navbar />
+  <carousel />
+  <h1>Gallery Content</h1>
 </template>
