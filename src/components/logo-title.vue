@@ -9,5 +9,4 @@
             <p class="main-description">Fixing motorcycles since 2017</p>
         </div>
     </div>
-
 </template>

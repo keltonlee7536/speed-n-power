@@ -1,16 +1,26 @@
 {  
-    "projectOne" : {  
-        "year":       "1999",   
-        "make":      "toyota",   
-        "model":    "camry",
-        "description" : "an example description of the project."
+    "projectOne" : { 
+        "ImageSrc" : "/src/assets/images/motor-bike-repair.webp",
+        "Year":       "1999",   
+        "Make":      "toyota",   
+        "Model":    "camry",
+        "Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec pellentesque tellus. Pellentesque ac felis vel sapien dapibus tristique quis laoreet magna. Sed accumsan quam."
 
     },
     "projectTwo" : {
-        "year":       "1996",   
-        "make":      "toyota",   
-        "model":    "avalon",
-        "description" : "an example description of the project."
+        "ImageSrc" : "/src/assets/images/motorcycle-repair.webp",
+        "Year":       "1996",   
+        "Make":      "toyota",   
+        "Model":    "avalon",
+        "Description" : "Nullam vestibulum posuere eros, ut elementum lacus condimentum sit amet. Nunc semper mattis tellus vitae porta. Donec a iaculis libero. Vestibulum rhoncus bibendum elit et."
+
+    },
+    "projectThree" : {
+        "ImageSrc" : "/src/assets/images/motorcycle-engine.webp",
+        "Year" : "1993",   
+        "Make" : "ford",   
+        "Model" : "aerostar",
+        "Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan vitae turpis ut vulputate. Pellentesque sed imperdiet nulla, sed facilisis nisi. Pellentesque quis sagittis tortor."
 
     }  
-}  
+} 

@@ -1,7 +1,13 @@
-<script setup>
+<script>//was "script setup" aka composition API
   import navbar from "../components/navbar.vue"
   import logo from "../components/logo-title.vue"
-  import "../assets/main.css"
+
+export default {
+  components: {
+    navbar,
+    logo
+  }
+}
 </script>
 
 <template>
