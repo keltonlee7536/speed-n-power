@@ -1,6 +1,6 @@
 <template>
   <head>
-    <link rel="stylesheet" type="text/css" href="../assets/main.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/css/main.css">
   </head>
 
   <body>

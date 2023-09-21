@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <link type=text/css href="../assets/main.css">
+    <link type=text/css href="../assets/styles/css/main.css">
 
     <div class="project-card grey-background" v-for="project in projects">
 
