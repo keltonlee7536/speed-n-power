@@ -1,0 +1,17 @@
+$font: 'inter', arial, sans-serif;
+
+
+h1 {
+    font-family: $font;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: $font;
+    font-weight: 600;
+}
+
+p, a, li {
+    font-family: $font;
+    font-weight: 400;
+}

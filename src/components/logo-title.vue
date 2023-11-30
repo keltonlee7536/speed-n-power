@@ -5,8 +5,8 @@
         </div>
 
         <div class="main-title-wrapper">
-            <h1 class="main-title">Motorcycle Medic</h1>
-            <p class="main-description">Fixing motorcycles since 2017</p>
+            <h1 class="main-title color-light-grey">Motorcycle Medic</h1>
+            <p class="main-description color-light-grey">Fixing motorcycles since 2017</p>
         </div>
     </div>
 </template>

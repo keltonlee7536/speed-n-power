@@ -1,3 +1,18 @@
+h1 {
+  font-family: "inter", arial, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "inter", arial, sans-serif;
+  font-weight: 600;
+}
+
+p, a, li {
+  font-family: "inter", arial, sans-serif;
+  font-weight: 400;
+}
+
 /* Navbar Styles //////////////////////////////////////*/
 .navbar-main-structure {
   display: flex;
@@ -10,18 +25,117 @@
   top: 0;
 }
 
-.nav-button-skin :hover {
-  color: green;
-}
-
 .nav-button-skin {
-  /* background-color:   $transparent; */
-  color: black;
+  color: white;
   font-size: 30px;
   font-weight: bold;
 }
 
+.color-light-grey {
+  color: #D9D9D9;
+}
+
+.dark-grey {
+  color: #5E5E5E;
+}
+
+.dark-grey-background {
+  background-color: #5E5E5E;
+}
+
+.project-card {
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grey-background {
+  background-color: #5E5E5E;
+}
+
+.project-card-image {
+  display: flex;
+  justify-content: start;
+}
+
+.project-image {
+  object-fit: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+.card-right {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#project-title {
+  margin-bottom: 12px;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+body {
+  margin: 0px;
+}
+
+.not-faq {
+  background-color: black;
+  color: white; /*change to light-grey*/
+}
+
+.side-side-outer {
+  margin-top: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+}
+
+.side-side-question {
+  padding: 12px;
+  width: 50%;
+  color: white;
+  background-color: rgb(94, 94, 94);
+}
+
+.side-side-answer {
+  padding: 12px;
+  width: 50%;
+  background-color: rgb(190, 190, 190);
+}
+
+.answer-description {
+  color: rgb(130, 130, 130);
+  font-weight: bold;
+}
+
+.not-faq {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.not-faq-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 /* Link Styles ///////////////////////////////////// */
+a {
+  color: rgb(89, 106, 255);
+}
+
 a:link { /* unvisited */
   text-decoration: none;
   /* color: white; */
@@ -33,9 +147,7 @@ a:visited { /* visited */
 }
 
 a:hover { /* mouse over link */
-  border-bottom: 3px;
   text-decoration: none;
-  color: lightblue;
 }
 
 a:active { /* selected link */
@@ -57,16 +169,6 @@ html {
   background-color: #D9D9D9;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 3px;
-  margin-bottom: 3px;
-}
-
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .hero-image {
   width: 100%;
   object-fit: cover;
@@ -83,6 +185,7 @@ h1 {
 .logo-box-img {
   max-width: 100px;
   aspect-ratio: 1;
+  object-fit: scale-down;
 }
 
 /* Main title-desc styles /////////////////////////////// */

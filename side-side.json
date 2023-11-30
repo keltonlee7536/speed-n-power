@@ -1,0 +1,22 @@
+{  
+    "itemOne" : { 
+        "question" : " \"My Motorcycle Won't start\"",
+        "answerTitle" : "We're here to help.",   
+        "answerDescription" : "you motorcycle may not start for a number of reasons. as such, it is important to find a mechanic you can trust to quickly diagnose and resolve your motorcycle's issue."
+    },
+    "itemTwo" : { 
+        "question" : " \"I need a tune up\"",
+        "answerTitle" : "We'll have you up to speed in no time.",   
+        "answerDescription" : "our garage has done 20+ tune ups and isn’t gonna stop anytime soon. we may have even worked on your same model - check our gallery page to see more."
+    },
+    "itemThree" : { 
+        "question" : " \"Nobody will work on my bike.\"",
+        "answerTitle" : "Don't give up just yet- We've got wide support.",   
+        "answerDescription" : "from a 1997 sumbike to a 2003 thisOne, we’ve seen it all. give us a call and we’ll see what we can do."
+    },
+    "itemFour" : { 
+        "question" : " \"Do you do other vehicles?\"",
+        "answerTitle" : "We do.",   
+        "answerDescription" : "quads, ride- on-top mowers, dirbikes, if it has a small engine, we can work on it."
+    }
+} 

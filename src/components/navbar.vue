@@ -5,10 +5,10 @@
 
   <body>
       
-    <div class="navbar-main-structure">
+    <div class="navbar-main-structure dark-grey-background">
         <router-link to="/" class="nav-button-skin">Home</router-link>
         <router-link to="/gallery" class="nav-button-skin">Gallery</router-link>
-        <router-link to="/contact" class="nav-button-skin">Contact</router-link>
+        <router-link to="/contact" class="nav-button-skin">Contact Us</router-link>
     </div>
 
   </body>
