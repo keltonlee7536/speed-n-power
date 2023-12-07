@@ -13,7 +13,7 @@ export default {
 <template>
     <link type=text/css href="../assets/styles/css/main.css">
 
-    <div class="project-card grey-background" v-for="project in projects">
+    <div class="project-card light-grey-background" v-for="project in projects">
 
         <div class="project-card-image">
             <img class="project-image" :src="project.ImageSrc" alt="Project Image" />

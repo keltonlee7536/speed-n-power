@@ -75,15 +75,19 @@ p, a, li {
 }
 
 .color-light-grey {
-  color: #D9D9D9;
+  color: rgb(190, 190, 190);
 }
 
 .dark-grey {
-  color: #5E5E5E;
+  color: rgb(94, 94, 94);
+}
+
+.light-grey-background {
+  background-color: rgb(190, 190, 190);
 }
 
 .dark-grey-background {
-  background-color: #5E5E5E;
+  background-color: rgb(94, 94, 94);
 }
 
 .project-card {
@@ -96,6 +100,11 @@ p, a, li {
   margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 1025px) {
+  .project-card {
+    flex-direction: column;
+  }
+}
 .grey-background {
   background-color: #5E5E5E;
 }
@@ -111,6 +120,11 @@ p, a, li {
   height: 300px;
 }
 
+@media only screen and (max-width: 1025px) {
+  .project-image {
+    max-width: 100%;
+  }
+}
 .card-right {
   width: 100%;
   padding-left: 30px;
@@ -182,6 +196,23 @@ body {
   font-weight: bold;
 }
 
+.contact-form-main {
+  background-color: rgb(190, 190, 190);
+  float: left;
+  width: 50%;
+  margin: 30px;
+  padding: 10px;
+}
+
+.small-spacing-top {
+  margin-top: 5px;
+}
+
+.large-input-field {
+  width: 300px;
+  height: 100px;
+}
+
 /* Link Styles ///////////////////////////////////// */
 a {
   color: rgb(89, 106, 255);
@@ -222,12 +253,12 @@ html {
 
 .hero-image {
   width: 100%;
+  height: 500px;
   object-fit: cover;
   position: relative; /*Lets the logo fold up into it when the logo is "position: absolute" */
 }
 
 .logo-box {
-  border-radius: 30%;
   background-color: red;
   width: 100px;
   height: 100px;

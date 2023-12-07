@@ -33,13 +33,13 @@ display:flex;
 padding: 12px;
 width: 50%;
 color: white;
-background-color: rgba(94, 94, 94, 1);
+background-color: $dark-grey;
 }
 
 .side-side-answer {
 padding: 12px;
 width: 50%;
-background-color: rgba(190, 190, 190, 1)
+background-color: $light-grey;
 }
 
 .answer-description {
@@ -62,6 +62,24 @@ font-weight: bold;
 }
 
 //end Home page styles
+
+.contact-form-main {
+  background-color: $light-grey;
+  float: left;
+  width: 50%;
+  margin: 30px;
+  padding: 10px;
+ }
+ 
+ .small-spacing-top {
+ margin-top:5px;
+ }
+ 
+ .large-input-field {
+   width: 300px;
+   height:100px;
+ }
+ 
 
 /* Link Styles ///////////////////////////////////// */
 a {
@@ -107,12 +125,12 @@ a:link {/* unvisited */
   
   .hero-image {
     width:  100%;
+    height:500px;
     object-fit: cover;
     position: relative; /*Lets the logo fold up into it when the logo is "position: absolute" */
   }
   
   .logo-box {
-   border-radius: 30%;
    background-color:  red;
    width: 100px;
    height: 100px;

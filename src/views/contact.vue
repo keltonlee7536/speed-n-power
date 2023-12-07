@@ -14,7 +14,7 @@
 
 <template>
   <navbar />
-  <!-- <img class="hero-image" src="../assets/images/garage-generic.webp"> -->
+  <img class="hero-image" src="/garage-generic.webp">
     <contactForm />
     <bio />
 </template>

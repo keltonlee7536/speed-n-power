@@ -1,8 +1,8 @@
 $transparent: rgba(217, 217, 217, 0.28);
 
-$light-grey: #D9D9D9;
+$light-grey: rgba(190, 190, 190, 1);
 
-$dark-grey: #5E5E5E;
+$dark-grey: rgba(94, 94, 94, 1);
 
 //$medium (for font weight) 500
 
@@ -13,6 +13,10 @@ $dark-grey: #5E5E5E;
 .dark-grey {
     color: $dark-grey;
 }
+
+.light-grey-background {
+    background-color: $light-grey;
+  }
 
 .dark-grey-background {
     background-color: $dark-grey;

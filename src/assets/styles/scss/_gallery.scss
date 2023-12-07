@@ -7,9 +7,11 @@
     margin-top:25px;
     margin-bottom:25px;
   }
-  
-  .grey-background {
-    background-color: #5E5E5E;
+
+  @media only screen and (max-width: 1025px){
+    .project-card {
+      flex-direction: column;
+    }
   }
   
   .project-card-image {
@@ -21,6 +23,13 @@
     object-fit: cover;
     max-width: 300px;
     height: 300px;
+
+  }
+
+  @media only screen and (max-width: 1025px){
+    .project-image {
+      max-width: 100%;
+    }
   }
   
   .card-right {
