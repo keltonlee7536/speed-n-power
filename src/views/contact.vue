@@ -1,12 +1,20 @@
-<script setup>
+<script>
   import contactForm from "../components/contact-form.vue"
   import navbar from "../components/navbar.vue"
+  import bio from "../components/bio.vue"
+
+  export default {
+  components: {
+    navbar,
+    contactForm,
+    bio
+  }
+}
 </script>
 
 <template>
   <navbar />
-  <div class="about">
+  <!-- <img class="hero-image" src="../assets/images/garage-generic.webp"> -->
     <contactForm />
-  </div>
-  <h1>Contact content</h1>
+    <bio />
 </template>

@@ -14,7 +14,7 @@ export default {
 
 <template>
     <navbar />
-  <img class="hero-image" src="../assets/images/motorcycle-closeup.jpg">
+  <img class="hero-image" src="/motorcycle-closeup.jpg">
   <logo/>
   <sideSide/>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="logo-title-main">
         <div class="logo-box">
-            <img class="logo-box-img" src="../assets/images/swatch-logo.webp">
+            <img class="logo-box-img" src="/cross-logo.png">
         </div>
 
         <div class="main-title-wrapper">

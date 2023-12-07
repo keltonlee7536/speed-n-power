@@ -1,10 +1,19 @@
 @import 'fonts.scss';
+@import 'home.scss';
 @import '../scss/navbar.scss';
 @import '../scss/variables.scss';
 @import '../scss/gallery.scss';
 
 body {
   margin: 0px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 //begin Home page styles

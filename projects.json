@@ -1,6 +1,6 @@
 {  
     "projectOne" : { 
-        "ImageSrc" : "/src/assets/images/motor-bike-repair.webp",
+        "ImageSrc" : "/motor-bike-repair.webp",
         "Year":       "1999",   
         "Make":      "toyota",   
         "Model":    "camry",
@@ -8,7 +8,7 @@
 
     },
     "projectTwo" : {
-        "ImageSrc" : "/src/assets/images/motorcycle-repair.webp",
+        "ImageSrc" : "/motorcycle-repair.webp",
         "Year":       "1996",   
         "Make":      "toyota",   
         "Model":    "avalon",
@@ -16,7 +16,7 @@
 
     },
     "projectThree" : {
-        "ImageSrc" : "/src/assets/images/motorcycle-engine.webp",
+        "ImageSrc" : "/motorcycle-engine.webp",
         "Year" : "1993",   
         "Make" : "ford",   
         "Model" : "aerostar",
