@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "dist-to-deploy": "git checkout deploy && git pull origin deploy && rm -rf dist/* && cp -r dist/* build/ && git add dist && git commit -m 'dist-to-deploy' && git push origin deploy && git checkout main",
     "preview": "vite preview"
   },
   "dependencies": {
