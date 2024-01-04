@@ -1,7 +1,6 @@
 <template>
 
-    <img src="aaron/profile/image">
-
+    <!-- <img src="aaron/profile/image"> -->
     <div class="right-side-bio">
         <h1>Aaron Lee</h1>
         <p>aaron's description</p>
