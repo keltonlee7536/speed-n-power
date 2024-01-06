@@ -6,7 +6,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
+  base: "/speed-n-power/", //could also trt ""
+    plugins: [
     vue(),
   ],
   resolve: {
@@ -15,3 +16,8 @@ export default defineConfig({
     }
   },
 })
+
+//maybe just make "dist" the root then i wouldnt have to worry about moving files?
+
+
+// base is by default "/" could change it to empty?
