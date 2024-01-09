@@ -4,9 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && copy-dist && dist-to-deploy && push-and-return",
+
+    "copy-dist":"cp -R ./dist/* .",
     
-    "deploymentIII": "git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
+    "dist-to-deploy": "git checkout deploy && rm -r * && cp -R ./dist/* ./ &&",
+
+    "push-and-return":"git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
+
     
     "preview": "vite preview"
   },
