@@ -5,16 +5,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && copy-dist && dist-to-deploy && push-and-return",
-
-    "copy-dist":"cp -R ./dist/* .",
+    "preview": "vite preview"
+  },
+  
+  "copy-dist":"cp -R ./dist/* .",
     
     "dist-to-deploy": "git checkout deploy && rm -r * && cp -R ./dist/* ./ &&",
 
     "push-and-return":"git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
 
-    
-    "preview": "vite preview"
-  },
   "dependencies": {
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
