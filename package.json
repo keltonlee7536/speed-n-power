@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     
-    "deploymentIII": "git checkout deploy && rm -r speed-n-power/*  && rm -r speed-n-power/ && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
+    "deploymentIII": "git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
     
     "preview": "vite preview"
   },
