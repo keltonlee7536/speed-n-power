@@ -7,7 +7,7 @@
     "build": "vite build",
     "deploy": "cp -R ./dist/* . && git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
     "preview": "vite preview",
-    "scss" : "cd src && cd assets && cd styles && sass --watch css:scss"
+    "scss" : "cd src && cd assets && cd styles && sass --watch scss:css"
   },
   "dependencies": {
     "vue": "^3.3.4",

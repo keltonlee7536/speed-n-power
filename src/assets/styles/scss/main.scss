@@ -64,7 +64,7 @@ font-weight: bold;
 //end Home page styles
 
 .contact-form-main {
-  background-color: $light-grey;
+  color: orange;
   float: left;
   width: 50%;
   margin: 30px;
@@ -112,6 +112,7 @@ a:link {/* unvisited */
     border-bottom: 3px;
   }
   
+
   
   /* Main Styles /////////////////////////////////////////*/
   .test {
@@ -164,4 +165,9 @@ a:link {/* unvisited */
     width:100%;
     height: auto;
     object-fit: cover;
+  }
+
+  .right-side-bio {
+    display: block;
+    width: 300px;
   }
