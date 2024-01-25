@@ -16,7 +16,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/speed-n-power/",
+  base: "",
     plugins: [vue()],
   resolve: {
     alias: {
