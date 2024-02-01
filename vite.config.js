@@ -23,10 +23,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  // build: {
-  //   // : '../dist',
-  //   rollupOptions: {
-  //     input: 'src/main.js'
-  //   }
-  // }
+  build: {
+    outDir : './dist',
+    rollupOptions: {
+      input: 'src/main.js'
+    }
+  }
 })
