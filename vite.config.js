@@ -3,21 +3,9 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-/*module.exports = {
-  root: './',
-  build: {
-    outDir: '../dist',
-    rollupOptions: {
-      input: './src/main.js'
-    }
-  }
-}*/
-
-
-// https://vitejs.dev/config/
 export default defineConfig({
   // publicPath: process.env.NODE_ENV === 'production' ? '/speed-n-power/dist/' : '/',//THIS IS EXPERIMENTAL!!!
-  base: "/speed-n-power/dist/",
+  base: "/",
     plugins: [vue()],
   resolve: {
     alias: {
@@ -26,7 +14,7 @@ export default defineConfig({
   },
   build: {
     outDir : 'dist',
-    assetsDir: '.',
+    assetsDir: 'assets',
     rollupOptions: {
       input: 'src/main.js'
     }
