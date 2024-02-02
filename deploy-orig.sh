@@ -1,0 +1,1 @@
+"deploy": "git add . && git commit -m 'auto commit pre-deployment' && git pull && git push && cp -R ./dist/* . && git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",

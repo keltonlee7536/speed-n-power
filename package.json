@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "git add . && git commit -m 'auto commit-pre deployment' && git pull && git push && cp -R ./dist/* . && git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
+    "deploy": "git add . && git commit -m 'auto commit pre-deployment' && git pull && git push && cp -R ./dist/* . && git checkout deploy && rm -r * && cp -R ./dist/* ./ && git add . && git commit -m 'dist-to-deployII' && git push && git checkout main",
     "preview": "vite preview",
     "scss" : "cd src && cd assets && cd styles && sass --watch scss:css"
   },
