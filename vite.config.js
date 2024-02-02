@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  // publicPath: process.env.NODE_ENV === 'production' ? '/speed-n-power/dist/' : '/',//THIS IS EXPERIMENTAL!!!
+  publicPath: process.env.NODE_ENV === 'production' ? '/speed-n-power/' : '/',//THIS IS EXPERIMENTAL!!!
   base: "/",
     plugins: [vue()],
   resolve: {
@@ -16,7 +16,7 @@ export default defineConfig({
     outDir : 'dist',
     assetsDir: 'assets',
     rollupOptions: {
-      input: 'src/main.js'
+      input: '/src/main.js'
     }
   }
 })
